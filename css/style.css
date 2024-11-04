@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),url(survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  color:#fff;
+    background-attachment: fixed;
+
+
+}
+.heading{
+    text-align: center;
+    width:100%;
+    margin:auto;
+    margin-top:100px;
+}
+#head{
+    font-size: 30px;
+}
+#subheading{
+    font-size: 23px;
+    margin-top: 10px;
+}
+#content{
+    width:90%;
+    margin:auto;
+}
+form{
+    background-color:rgba(0,0,0,0.7);
+    padding-top: 34px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:54%;
+    margin:auto;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+    margin-top:20px ;
+}
+form .box{
+    width:100%;
+    height:40px;
+    position:relative;
+    border-radius:5px;
+    border:0;
+    margin-bottom: 10px;
+    }
+    #option1 select{
+        width:100%;
+        height:40px;
+        position:relative;
+        bottom:10px;
+        border-radius:5px;
+        border:0;
+    }
+    /* radio buttons */
+ .radio{
+    margin-top: 20px;
+ }
+    #option2 select{
+        width:100%;
+        height:40px;
+        position:relative;
+        bottom:10px;
+        border-radius:5px;
+        border:0;
+    }
+    label{
+        font-size: 19px;
+   
+    }
+    /* checkboxes */
+    .checkboxes{
+        margin-top: 20px;
+    }
+    /* cooments */
+    .input-textarea{
+     min-height: 120px;
+    width: 100%;
+    padding: 3px;
+    resize: vertical;
+    border-radius: 8px;
+    }
+    /* submit button */
+    .sbmt-btn{
+        width:100%;
+        height:50px;
+        position:relative;
+        border-radius:2px;
+        border:0;
+        margin-top: 20px;
+        color:#fff;
+        font-size: 20px;
+        background-color:#37af65;
+    }
+    form input[type="text"], input[type="email"], input[type="age"]{
+        padding-left: 15px;
+    }
+    /* media query */
+    @media only screen and(max-width:900px){
+    form{
+        width:90%;
+        flex-direction: column;
+    }
+    
+        
+    }
+    @media only screen and(max-width:700px){
+        form{
+            width:80%;
+        }
+    }
+    @media only screen and(max-width:500px){
+        form #content{
+            width:90%;
+            flex-direction: column;
+        }
+        form input[type="text"], input[type="email"], input[type="age"]{
+margin-right: 25px;
+padding-left: 5px;
+    }
+    #subheading{
+        font-size: 15px;
+    }
+    .submt btn{
+        font: size 14px;
+
+        
+    }
+}
+@media only screen and(max-width:400px){
+    #content{
+        width: 100%;
+    }
+    form input[type="text"], input[type="email"]{
+        width:
+    }
+   
+}
+
+
+
+
+
+   
+    
+         
+    
